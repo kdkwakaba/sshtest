@@ -12,7 +12,7 @@ jobs:
       with:
         host: "48.218.35.94"
         username: "azureuser"
-        password: "D48gEG%gjwep4-^gn"
+        password: ${{ secrets.PASSWORD }}
         commands: |
           pwd
           ls -la

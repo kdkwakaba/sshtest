@@ -19,3 +19,4 @@ jobs:
           echo "test"
           HOGE=11
           echo $HOGE
+          echo "aaa\"bbb\""

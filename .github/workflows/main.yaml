@@ -16,3 +16,6 @@ jobs:
         commands: |
           pwd
           ls -la
+          echo "test"
+          HOGE=11
+          echo $HOGE
